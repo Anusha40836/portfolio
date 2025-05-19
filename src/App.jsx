@@ -81,13 +81,11 @@ function App() {
             <Col md={4}>
               <Card className="mb-4 shadow-sm border-0">
                 <Card.Body>
-                  <Card.Title className="fw-bold">
-                    Book Management System
-                  </Card.Title>
+                  <Card.Title className="fw-bold">Task Manager</Card.Title>
                   <Card.Text>
-                    A full-stack MERN application for managing a digital library
-                    with features like book listing, searching, and user
-                    authentication.
+                    A full-stack MERN application for managing tasks with
+                    features like task listing, adding,updating, deleting, and
+                    user authentication.
                   </Card.Text>
                   <Button
                     variant="primary"
@@ -164,7 +162,7 @@ function App() {
                   </Button>{" "}
                   <Button
                     variant="outline-success"
-                    href="https://your-live-url.com"
+                    href="https://anusha-a-portfolio.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
