@@ -20,6 +20,8 @@ export default function About() {
         <li>MongoDB</li>
         <li>MySQL</li>
         <li>Spring Boot</li>
+        <li>Postman</li>
+        <li>Java</li>
       </ul>
     </section>
   );
