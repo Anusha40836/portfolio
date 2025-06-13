@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #0077cc;
+  border-radius: 10px;
+}
+body.dark .skills li {
+  background: #37474f; /* dark blue-grey chip */
+  color: #eee; /* light text */
+}
+body.dark .skills li:hover {
+  background: #455a64;
+}
