@@ -4,12 +4,14 @@ const projects = [
   {
     title: "DevConnect - MERN Stack | JWT Auth | MongoDB | Bootstrap",
     link: "https://github.com/Anusha40836/devconnect-frontend",
+    live: "https://devconnect-frontend.vercel.app",
     description:
       "Built a full-stack user authentication and project CRUD.Implemented tag-based filtering, project deadlines, and status tracking using MongoDB and React.Designed responsive UI with Bootstrap and secured routes using JWT tokens.",
   },
   {
     title: "Blog Application - MERN Stack | JWT Auth | MongoDB | Responsive UI",
     link: "https://github.com/Anusha40836/blog-backend",
+    live: "https://blog-frontend-omega-eight.vercel.app",
     description:
       "Developed a full-stack blogging platform with secure authentication and post CRUD functionality.Integrated protected routes, user-specific access, and token-based session handling using JWT.Implemented React Router, form validation, and rich text editor (optional) for better UX.",
   },
@@ -90,6 +92,18 @@ export default function Projects() {
             <a href={project.link} target="_blank">
               View Code
             </a>
+            {project.live && (
+              <>
+                {" | "}
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </>
+            )}
           </div>
         ))}
       </div>
