@@ -2,7 +2,17 @@ import React from "react";
 
 const projects = [
   {
-    title: "DevConnect - MERN Stack | JWT Auth | MongoDB | Bootstrap",
+    title:
+      "Turf-Booking-Website - MERN Stack | JWT | Role-Based Access Control | MongoDB | CRUD | Responsive UI",
+    link: "https://github.com/Anusha40836/turf-backend",
+    live: "https://turf-frontend-nine.vercel.app/",
+    description:
+      "Developed a full-stack Turf Booking Web Application with user authentication and secure JWT-based route protection.Designed and integrated a responsive UI with dark mode and light mode options for enhanced user experience.Added search functionality to quickly check available turfs by location and time.Enabled users to submit reviews and ratings for turfs to improve feedback and service quality.Developed admin dashboard to add new turf locations, set pricing.",
+  },
+
+  {
+    title:
+      "DevConnect - MERN Stack | JWT Auth |Tag-Based Filtering | MongoDB | Bootstrap",
     link: "https://github.com/Anusha40836/devconnect-frontend",
     live: "https://devconnect-frontend.vercel.app",
     description:
